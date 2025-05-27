@@ -1,0 +1,102 @@
+[
+  {
+    "name": "frontend_login_component_renders_the_with_login_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_login_component_displays_validation_messages_when_login_button_is_clicked_with_empty_fields",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_signup_component_renders_with_signup_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_signup_component_displays_validation_messages_when_submit_button_is_clicked_with_empty_fields",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_signup_component_displays_error_when_passwords_do_not_match",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_errorpage_component_renders_with_error_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_errorpage_component_renders_with_error_content",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_home_component_renders_with_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_home_component_renders_with_contact_us",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_viewallloans_student_component_renders_the_with_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_viewallloans_student_component_renders_the_table",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_loanapplicationform_student_component_renders_the_with_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_loanapplicationform_student_component_displays_required_validation_messages",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_studentpostfeedback_student_component_renders_the_with_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_appliedloans_student_component_renders_the_with_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_appliedloans_student_component_renders_the_table",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_viewloans_loanmanager_component_renders_the_with_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_viewloans_loanmanager_component_renders_the_table",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_loanrequest_loanmanager_component_renders_the_with_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_loanrequest_loanmanager_component_renders_the_table",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_loanform_loan_manager_component_renders_the_with_create_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_loanform_loan_manager_component_displays_required_validation_messages",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_viewfeedback_admin_component_renders_the_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_collegeform_admin_component_renders_with_create_heading",
+    "weightage": 0.02
+  },
+  {
+    "name": "frontend_collegeform_admin_component_displays_required_validation_messages",
+    "weightage": 0.02
+  }
+]
