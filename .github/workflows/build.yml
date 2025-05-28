@@ -1,13 +1,8 @@
 name: Build
 'on':
-  push:
-    branches:
-      - '*'
-  pull_request:
+  repository_dispatch:
     types:
-      - opened
-      - synchronize
-      - reopened
+      - run
 jobs:
   build:
     name: Build
@@ -24,12 +19,11 @@ jobs:
         run: mv .github/workflows/pom.xml ./pom.xml
       - name: Build and analyze
         env:
-          GITHUB_TOKEN: >-
-            814610fb-15ef-477f-8414-bb8cf1e6f95a-2ed72569-f2fc-49bd-99ab-9bc538596016
+          GITHUB_TOKEN: dedbeccabeabeaffcccafeaaefeceedffcbdabbc
           SONAR_TOKEN: 811c9a490983734401ba4e491eaefc8bfa7281de
         run: >-
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-          -Dsonar.projectKey=iamneo-production_814610fb-15ef-477f-8414-bb8cf1e6f95a-2ed72569-f2fc-49bd-99ab-9bc538596016
+          -Dsonar.projectKey=iamneo-production_dedbeccabeabeaffcccafeaaefeceedffcbdabbc
           -Dsonar.login=811c9a490983734401ba4e491eaefc8bfa7281de
       - name: Trigger API
         if: always()
